@@ -174,7 +174,6 @@ section {
     box-shadow: 0 0 1rem #12f7ff;
     position: relative;
     overflow: hidden;
-    z-index: 1;
     border-radius: 5px;
     border: 2px solid var(--hover-color);
 }
@@ -256,12 +255,12 @@ section {
     border-radius: 25px;
 }
 
-/*
+
 .about-content span {
     font-size: 3rem;
     margin-left: 100px;
 }
-*/
+
 .about-content p {
     font-size: 1.3rem;
     font-weight: 300;
@@ -270,33 +269,67 @@ section {
     justify-content: center;
 }
 
+.portfolio {
+    position: relative;
+}
+
+.container h1 {
+    position: absolute;
+    left: 47%;
+    bottom: 10%;
+}
+
 .btn-ladle {
-    background-color: #4E6C50;
-    font-size: 3rem;
+    background-color: var(--hover-color);
+    font-size: 1rem;
     border-radius: 10px;
-    font-weight: 600;
+    font-weight: 550;
     cursor: pointer;
-    margin-top: 20px;
+    position: absolute;
+    top: 260%;
+    left: 40%;
+    padding: 5px;
+
+
 }
 
 .btn-ladle2 {
-    background-color: #4E6C50;
-    font-size: 3rem;
+    background-color: black;
+    color: #12f7ff;
+    border-color: #12f7ff;
+    box-shadow: 0 0 1rem var(--hover-color);
+    font-size: 1rem;
     border-radius: 10px;
-    font-weight: 600;
+    font-weight: 550;
     cursor: pointer;
-    margin-left: px;
+    position: absolute;
+    top: 260%;
+    left: 50%;
+    padding: 5px;
 }
 
+/*
+.btn-ladle2 :hover {
+    color: orange;
+    background-color: #12f7ff;
+
+
+}
+*/
 .ladle-image img {
     background: black;
     position: absolute;
     float: left;
-    margin-left: 300px;
+    margin-left: 250px;
     border-radius: 25px;
+    height: 600px;
+    width: 700px;
+    border: solid 5px var(--hover-color);
+    box-shadow: 0 0 3rem var(--hover-color)
 }
 
 .port-text {
     font-size: 3rem;
-    margin-left: 500px;
+    text-align: center;
+    margin-bottom: 80px;
 }
